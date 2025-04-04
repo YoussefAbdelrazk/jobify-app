@@ -1,5 +1,5 @@
 import LinkDropdown from '@/components/LinkDropdown';
-import ToggleTheme from '@/components/ToggleTheme';
+import { ToggleTheme } from '@/components/ToggleTheme';
 import { UserButton } from '@clerk/nextjs';
 
 export default function Navbar() {
