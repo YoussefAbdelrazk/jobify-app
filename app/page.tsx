@@ -9,7 +9,7 @@ const HomePage = () => {
       <header className=' max-w-6xl mx-auto px-4 sm:px-8 py-6 '>
         <Image src={logo} alt='logo' />
       </header>
-      <section className='max-w-6xl mx-auto px-4 sm:px-8 grid lg:grid-cols-[1fr,400px]  '>
+      <section className='max-w-6xl mx-auto px-4 mt-20  sm:px-8 grid lg:grid-cols-[1fr,400px]  '>
         <div>
           <h1 className=' font-bold text-4xl md:text-7xl capitalize'>
             {' '}

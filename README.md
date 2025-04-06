@@ -2302,7 +2302,7 @@ function EditJobForm({ jobId }: { jobId: string }) {
         });
         return;
       }
-      toast({ description: 'job updated' });
+      toast({ description: 'job updated ' });
       queryClient.invalidateQueries({ queryKey: ['jobs'] });
       queryClient.invalidateQueries({ queryKey: ['job', jobId] });
       queryClient.invalidateQueries({ queryKey: ['stats'] });
@@ -3247,4 +3247,5 @@ export default ButtonContainer;
 ```
 
 ## THE END
+
 # Jobify App
