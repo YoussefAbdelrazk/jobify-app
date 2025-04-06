@@ -19,7 +19,7 @@ const HomePage = () => {
             Jobify is a powerful and intuitive platform designed to streamline
             your job search and application process. Whether you're actively job
             hunting, keeping track of applications, or organizing opportunities,
-            Jobify helps you stay on top of your career journey with ease.
+            Jobify helps you stay on top of your career journey with ease
           </p>
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started </Link>
