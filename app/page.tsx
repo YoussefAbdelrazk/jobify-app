@@ -16,10 +16,10 @@ const HomePage = () => {
             Job <span className=' text-primary'>tracking </span> app
           </h1>
           <p className=' leading-loose max-w-md mt-4'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-            reprehenderit! Perferendis sit error asperiores doloremque! Fugit
-            quia iusto laborum ea distinctio repellat quae, soluta voluptatem
-            magnam error. Nulla, facilis dolorem?
+            Jobify is a powerful and intuitive platform designed to streamline
+            your job search and application process. Whether you're actively job
+            hunting, keeping track of applications, or organizing opportunities,
+            Jobify helps you stay on top of your career journey with ease.
           </p>
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started </Link>
