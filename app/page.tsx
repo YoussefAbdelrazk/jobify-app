@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../assets/logo.svg';
 import hero from '../assets/main.svg';
+
 const HomePage = () => {
   return (
     <main>
@@ -17,9 +18,10 @@ const HomePage = () => {
           </h1>
           <p className=' leading-loose max-w-md mt-4'>
             Jobify is a powerful and intuitive platform designed to streamline
-            your job search and application process. Whether you're actively job
-            hunting, keeping track of applications, or organizing opportunities,
-            Jobify helps you stay on top of your career journey with ease
+            your job search and application process. Whether you&#39;re actively
+            job hunting, keeping track of applications, or organizing
+            opportunities, Jobify helps you stay on top of your career journey
+            with ease
           </p>
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started </Link>
